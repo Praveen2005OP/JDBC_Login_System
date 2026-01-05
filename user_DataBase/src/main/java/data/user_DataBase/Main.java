@@ -77,6 +77,14 @@ public class Main {
     	return special;
     }
     
+    static boolean containsNumericValue(String pass) {
+    	boolean num = false;
+    	if(pass.contains("0")||pass.contains("1")||pass.contains("2")||pass.contains("3")||pass.contains("4")||pass.contains("5")||pass.contains("6")||pass.contains("7")||pass.contains("8")||pass.contains("9")) {
+    		num = true;
+    	}
+    	return num;
+    }
+    
     static boolean passwordChecker(String pass) {
     	if(pass.length()<8) {
     		System.out.println("Password length must be greater then 8.");
@@ -91,7 +99,11 @@ public class Main {
     		return false;
     	}
     	else if(!containsSpecialCharacter(pass)) {
-    		System.out.println("Password must contain one special character from these symbols !@#$%^&*(){}[]");
+    		System.out.println("Password must contain one special character from these symbols !@#$%^&*(){}[].");
+    		return false;
+    	}
+    	else if(!containsNumericValue(pass)) {
+    		System.out.println("Password must contain one numerical value.");
     		return false;
     	}
     	else {
