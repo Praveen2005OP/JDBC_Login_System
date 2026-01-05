@@ -41,13 +41,13 @@ This project demonstrates core JDBC concepts, PreparedStatement usage, and basic
 1. PreparedStatement to prevent SQL Injection.
 2. Password verification before sensitive operations.
 3. Confirmation prompt before account deletion.
-⚠️ Note: Passwords are stored in plain text for learning purposes.
-In real-world applications, passwords should be hashed before storing.
+>⚠️ Note: Passwords are stored in plain text for learning purposes.
+>In real-world applications, passwords should be hashed before storing.
 # 📂 Project Structure
-src/
- └── data/
-     └── user_DataBase/
-         └── Main.java
+src/\
+ └── data/\
+     └── user_DataBase/\
+         └── Main.java\
 # 📚 Learning Outcomes
 1. Understanding JDBC architecture.
 2. Working with PreparedStatement and ResultSet.
@@ -55,8 +55,8 @@ src/
 4. Handling database connections safely.
 5. Designing menu-driven console applications.
 # 👨‍💻 Author
-Praveen Kumar Sharma
-Engineering Student
+Praveen Kumar Sharma\
+Engineering Student\
 GLA University
 # 📄 License
 This project is for educational purposes only.
