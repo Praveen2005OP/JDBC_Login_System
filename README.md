@@ -18,9 +18,9 @@ This project demonstrates core JDBC concepts, PreparedStatement usage, and basic
 1. create database user_db;
 2. use user_db;
 3. create table users (
-4. 		userid VARCHAR(50) PRIMARY KEY,
-5.    	pass VARCHAR(15) NOT NULL
-6.  	);
+4.    userid VARCHAR(50) PRIMARY KEY,
+5. 	pass VARCHAR(15) NOT NULL
+6. );
 # 🚀 How to Run the Project
 1. Clone the repository:
    git clone https://github.com/Praveen2005OP/JDBC_Login_System.git
