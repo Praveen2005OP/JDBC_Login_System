@@ -44,10 +44,10 @@ This project demonstrates core JDBC concepts, PreparedStatement usage, and basic
 ⚠️ Note: Passwords are stored in plain text for learning purposes.
 In real-world applications, passwords should be hashed before storing.
 # 📂 Project Structure
-1.src/
-2. └── data/
-3.     └── user_DataBase/
-4.         └── Main.java
+src/
+ └── data/
+     └── user_DataBase/
+         └── Main.java
 # 📚 Learning Outcomes
 1. Understanding JDBC architecture.
 2. Working with PreparedStatement and ResultSet.
